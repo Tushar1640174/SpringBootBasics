@@ -82,11 +82,9 @@ public class EmployeeService {
 			if(e.getId()==id)
 			{	
 				emp=e;
-				//employeeDao.delete(emp);
+				
 	        }
-			//return emp;
-	//employeeDao.delete(emp);
-	//return emp;
+			
 }
 		employeeDao.delete(emp);
 		return emp;

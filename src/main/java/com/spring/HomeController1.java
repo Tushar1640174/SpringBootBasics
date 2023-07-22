@@ -28,10 +28,7 @@ public class HomeController1 {
 	@PostMapping("/employee")
 	public Employee insert(@RequestBody Employee employee)
 	{
-		/*
-		 * Address ad=new Address("London","Manchestar","123456"); Employee emp=new
-		 * Employee("TUSHAR BATRA","Analyst",ad);
-		 */
+		
 		Employee e=employeeService.insert(employee);
 		return e;
 	}
